@@ -4,9 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sissor paper and rock</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div class="hero"></div>
-    <script src="index.js"></script>
+    <div class="hero">
+        <div class="user-guess">
+            <div class="scissor" value="0">
+                <i class="fa-solid fa-hand-scissors"></i>
+            </div>
+            <div class="paper" value="1">
+                <i class="fa-solid fa-hand"></i>
+            </div>
+            <div class="rock" value="2">
+                <i class="fa-solid fa-hand-back-fist"></i>
+            </div>
+        </div>
+        <div class="computer-guess"></div>
+        <div class="score"></div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>

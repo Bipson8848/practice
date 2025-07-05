@@ -1,2 +1,8 @@
 let rand=Math.floor(Math.random()*3+1);
-console.log(rand)
+let score=document.querySelector('.score');
+function generateResult(userguess,rand){
+    if(userguess==rand){
+        score.innerHTML="Draw";
+    }
+
+}
