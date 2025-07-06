@@ -2,13 +2,37 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 200px;
+    height: 70vh;
     gap: 20px;
+    width: 100vw;
 }
 .user-guess{
-    width: 50%;
+    width: 50vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 150px;
+    margin-top: 50px;
+
+}
+.user-guess div{
+    transform: scale(5);
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 30px;
+    margin-top: 20px;
+    width: 30px;
+}
+.computer-guess{
+    width: 50vw;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+}
+
+.computer-guess .dic{
+    transform: scale(6);
+    
 }
